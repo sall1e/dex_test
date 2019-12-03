@@ -59,10 +59,3 @@ class SimilarityMeasurer(Resource):
 
     def levinstain(self, v1, v2):
         return nltk.edit_distance(v1, v2)
-
-
-if __name__ == '__main__':
-    similarity = SimilarityMeasurer()
-    string1 = 'text'
-    string2 = 'text'
-    print(similarity.wmd_distance(string1, string2))

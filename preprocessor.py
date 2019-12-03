@@ -33,11 +33,3 @@ class Preprocessor:
                         string.lower())))
             .split()
         )
-
-
-
-if __name__ == '__main__':
-    preprocessor = Preprocessor()
-    s1 = 'Ohio State vs Michigan,.,.'
-    print(preprocessor.preprocess(s1))
-
