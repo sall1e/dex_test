@@ -1,0 +1,8 @@
+# ignore all ipython notebooks
+*.ipynb
+
+.ipynb_checkpoints/
+.idea/
+__pycache__/
+venv/
+model/GoogleNews-vectors-negative300.bin

@@ -1,0 +1,8 @@
+# Web frameworks / libriries
+flask==1.1.1
+flask_restful==0.3.7
+
+# NLP helpers
+nltk==3.4.3
+gensim==3.7.3
+pyemd==0.5.1
